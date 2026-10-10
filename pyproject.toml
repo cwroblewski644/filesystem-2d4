@@ -1,0 +1,14 @@
+[project]
+name = "filesystem-quota-checker"
+version = "0.1.0"
+description = "Computes per-user or per-group disk usage by walking a tree and summing st_uid or st_gid ownership."
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
